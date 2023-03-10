@@ -40,8 +40,17 @@ function generatePassword() {
 
   var passwordCharacters = []
 
-  if (confirmLower, confirmUpper, confirmNumber, confirmSpecial) {
-    passwordCharacters = passwordCharacters.concat(LowerChar, UpperChar, numberChar, specialChar)
+  if (confirmLower == true) {
+    passwordCharacters = passwordCharacters.concat(LowerChar)
+  }
+  if (confirmUpper == true) {
+    passwordCharacters = passwordCharacters.concat(UpperChar)
+  }
+  if (confirmNumber == true) {
+    passwordCharacters = passwordCharacters.concat(numberChar)
+  }
+  if (confirmSpecial == trues) {
+    passwordCharacters = passwordCharacters.concat(specialChar)
   }
 
     console.log(passwordCharacters)
