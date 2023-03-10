@@ -49,7 +49,7 @@ function generatePassword() {
   if (confirmNumber == true) {
     passwordCharacters = passwordCharacters.concat(numberChar)
   }
-  if (confirmSpecial == trues) {
+  if (confirmSpecial == true) {
     passwordCharacters = passwordCharacters.concat(specialChar)
   }
 
