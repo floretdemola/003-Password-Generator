@@ -21,11 +21,11 @@ function generatePassword() {
   console.log("Let's generate a new password!")
 
   //Select length
-  var passwordLength = window.prompt('How many characters would you like your password to contain? (Please select an option between 8-128.)');
+  var passwordLength = window.prompt('How many characters would you like your password to contain? (Please select an option between 8-128).');
 
    if (passwordLength < 8 || passwordLength > 128){
     alert("Password must be between 8-128 characters, please try again.");
-    var passwordLength = window.prompt('How many characters would you like your password to contain?');
+    var passwordLength = window.prompt('How many characters would you like your password to contain? (Please select an option between 8-128).');
    };
 
    alert('You have selected ' + passwordLength + ' characters.');
