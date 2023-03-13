@@ -92,7 +92,7 @@ This Challenge is graded based on the following criteria:
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application: https://floretdemola.github.io/003-Password-Generator/
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
